@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+}
+.myForm{
+    margin: 100px;
+}
+.row{
+    margin-top: 5px;
+}
+.General{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.Hat{
+    background-color: navy;
+    display: flex;
+    padding: 15px;
+}
+.Hat p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.Hat input{
+    color: grey;
+    margin-left: 5%;
+    background-color: darkgray;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 8px;
+}
+.vtoraya{
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.spisk ul{
+    list-style: none;
+}
+.spisk ul li{
+    color: #4385a3;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.spisk a{
+    text-decoration: none;
+    color: #4385a3;
+}
+
+.avatar{
+background-color: white;
+border-radius: 7px;
+width: 260px;
+padding: 15px;
+}
+.avatar img{
+width: 100%;
+}
+.avatar button{
+margin-top: 15px;
+width: 100%;
+background-color: aliceblue;
+color: #4385a3;
+font-size: 18px;
+padding: 5px;
+border: 1px solid aliceblue;
+}
+
+.friends{
+margin-top: 20px;
+background-color: white;
+border-radius: 7px;
+width: 260px;
+padding: 15px;
+}
+.friendsText{
+display: flex;
+color: #4385a3;
+}
+.friendsText p{
+margin-left: 10px;
+font-size: 18px;
+}
+.friendsPhoto{
+display: flex;
+flex-wrap: wrap;
+}
+.photo{
+display: flex;
+
+.photo1 p {
+color:#4385a3;
+}
+
+}
+.photo1{
+width: 70px;
+padding: 10px;
+}
+.photo1 img{
+width:100%;
+border-radius: 50%;
+}
+
+.infa{
+background-color: white;
+border-radius: 7px;
+width: 800px;
+padding: 15px;
+}
+.infa1{
+display: flex;
+justify-content: space-between;
+}
+.infa1 p{
+color: #4385a3;
+font-size: 20px;
+font-weight: bold;
+}
+.infa1 span{
+color: darkgray;
+font-size: 16px;
+}
+.infa2{
+display: flex;
+}
+.begin{
+margin-top: 15px;
+}
+.begin p{
+color: darkgrey;
+font-size: 16px;
+margin-top: 5px;
+}
+.end{
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 50px;
+}
+.end p{
+color: #4385a3;
+font-size: 16px;
+margin-top: 5px;
+}
+.infa3{
+display: flex;
+justify-content: space-between;
+padding: 15px;
+}
+.infa3 p{
+color: #4385a3;
+font-size: 24px;
+text-align: center;
+}
+.infa3 span{
+color: darkgrey;
+font-size: 14px;
+}
+.myph{
+background-color: white;
+border-radius: 7px;
+width: 800px;
+padding: 15px;
+margin-top: 20px;
+}
+.myph1{
+display: flex;
+padding: 10px;
+width: 100%;
+justify-content: space-around;
+}
+.myph1 img{
+width: 22%;
+}
+.stenka{
+background-color: white;
+border-radius: 7px;
+width: 800px;
+padding: 15px;
+margin-top: 20px;
+height: auto;
+}
+.stenka1{
+display: flex;
+}
+.stenkatext{
+margin-top: 15px;
+}
+.stenkatext p{
+color: #4385a3;
+font-size: 18px;
+font-weight: bold;
+}
+.stenkatext span{
+color: darkgray;
+font-size: 14px;
+}
+.stenkatext1{
+margin-top: 15px;
+color:#4385a3;
+}
+
+
+
+
+
+
+
+.site {
+width: auto;
+height: auto;
+display: flex;
+flex-direction: column;
+background-color: aliceblue;
+}
+
+.shapka {
+background-color: navy;
+display: flex;
+align-items: center;
+height: 40px;
+}
+.shapka p {
+color: white;
+font-weight: bold;
+font-size: 20px;
+margin-left: 200px;
+}
+.shapka input{
+color: grey;
+margin-left: 120px;
+background-color: darkgray;
+border-radius: 10px;
+font-size: 14px;
+padding: 8px;
+height: 8px;
+color: grey;
+
+}
+
+.contents {
+display: flex;
+color: #4385a3;
+width: 100%;
+height: 100%;
+justify-content: center;
+margin-top: 5px;
+}
+.contentLeft ul {
+list-style: none;
+}
+.contentLeft ul li {
+margin-top: 10px;
+text-align: start;
+}
+.myFriendText ul {
+list-style: none;
+}
+
+
+
+.contentLeft {
+width: 12%;
+margin-right: 10px;
+}
+.contentCenter {
+width: 40%;
+}
+.centerTop {
+display: flex;
+color: #4385a3;
+background-color: white;
+border: 2px solid aliceblue;
+}
+.centerTop p{
+color:#4385a3;
+}
+
+
+.search {
+display: inline-flex;
+padding: 10px;
+}
+
+.search-icon {
+width: 20px;
+height: 20px;
+margin-right: 10px;
+order: -1;
+}
+
+.search-friends {
+width: 300px;
+border: 0;
+}
+.myFriend {
+display: flex;
+color: #4385a3;
+
+}
+.contentRight {
+width: 20%;
+margin-left: 10px;
+}
+.Right1 {
+background-color: white;
+border: 10px solid aliceblue;
+}
+.Right2 {
+background-color: white;
+border: 10px solid aliceblue;
+}
+
+.contentLeft a{
+text-decoration: none;
+}
